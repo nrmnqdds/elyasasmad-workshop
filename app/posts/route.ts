@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 
 const contentExampleArray = [
   {
+    id: "1",
     name: "Elon Ma",
     username: "@yelon.ma",
     photoURL:
@@ -10,12 +11,13 @@ const contentExampleArray = [
       "Just had a blast at the Full-Stack Fusion mobile app workshop in IIUM! 🚀💻 It's incredible to see so much talent and innovation in one room. Keep pushing the boundaries of what's possible! 🔥 #FullStackFusion #Innovation #MobileApps",
     createdAt: "19 mins",
     data: {
-      likes: 8012,
-      reposts: 5001,
-      comments: 600,
+      likes: 250,
+      reposts: 100,
+      comments: 50,
     },
   },
   {
+    id: "2",
     name: "Bill Gates",
     username: "@bill",
     photoURL:
@@ -24,12 +26,13 @@ const contentExampleArray = [
       "Thrilled to be a part of the Full-Stack Fusion mobile app workshop. The energy and creativity here are inspiring. These young developers are the future of technology, and I'm excited to see the innovation they'll bring to the world. 🌐💡 #FullStackFusion #Innovation #TechFuture",
     createdAt: "3 hrs",
     data: {
-      likes: 2500,
-      reposts: 500,
-      comments: 100,
+      likes: 250,
+      reposts: 100,
+      comments: 50,
     },
   },
   {
+    id: "3",
     name: "Hakim Nazry",
     username: "@hakim.nazry",
     photoURL: "https://randomuser.me/api/portraits/men/80.jpg",
@@ -39,6 +42,90 @@ const contentExampleArray = [
       likes: 250,
       reposts: 100,
       comments: 50,
+    },
+  },
+  {
+    id: "4",
+    name: "Sarah Johnson",
+    username: "@sarahj",
+    photoURL: "https://randomuser.me/api/portraits/women/45.jpg",
+    content:
+      "Had a fantastic time at the Full-Stack Fusion workshop today. The future of technology is looking bright with these talented individuals. 🌟 #FullStackFusion #TechEnthusiast",
+    createdAt: "5 hrs",
+    data: {
+      likes: 150,
+      reposts: 75,
+      comments: 30,
+    },
+  },
+  {
+    id: "5",
+    name: "John Smith",
+    username: "@johnsmith",
+    photoURL: "https://randomuser.me/api/portraits/men/64.jpg",
+    content:
+      "Just attended an amazing Full-Stack Fusion event at the local tech hub. The enthusiasm and innovation in the room were infectious. 🔥 #TechCommunity #FullStackFusion",
+    createdAt: "2 days",
+    data: {
+      likes: 180,
+      reposts: 90,
+      comments: 40,
+    },
+  },
+  {
+    id: "6",
+    name: "Emily Chen",
+    username: "@emilyc",
+    photoURL: "https://randomuser.me/api/portraits/women/21.jpg",
+    content:
+      "Full-Stack Fusion is the place to be for tech enthusiasts. Met some incredible people and learned a lot. 🤓 #Networking #Learning",
+    createdAt: "1 week",
+    data: {
+      likes: 120,
+      reposts: 60,
+      comments: 25,
+    },
+  },
+  {
+    id: "7",
+    name: "David Kim",
+    username: "@davidk",
+    photoURL: "https://randomuser.me/api/portraits/men/37.jpg",
+    content:
+      "Excited to see the potential of Full-Stack Fusion. These workshops are a breeding ground for innovation. 🚀 #FullStackFusion #InnovationHub",
+    createdAt: "3 weeks",
+    data: {
+      likes: 210,
+      reposts: 80,
+      comments: 45,
+    },
+  },
+  {
+    id: "8",
+    name: "Alicia Martinez",
+    username: "@aliciam",
+    photoURL: "https://randomuser.me/api/portraits/women/10.jpg",
+    content:
+      "Impressed by the level of talent at Full-Stack Fusion. These young minds are reshaping the tech landscape. 🌍💻 #FutureTechLeaders",
+    createdAt: "1 month",
+    data: {
+      likes: 190,
+      reposts: 70,
+      comments: 35,
+    },
+  },
+  {
+    id: "9",
+    name: "Samuel Roberts",
+    username: "@samuelr",
+    photoURL: "https://randomuser.me/api/portraits/men/75.jpg",
+    content:
+      "Full-Stack Fusion is where ideas come to life. The possibilities are endless with such creative minds. 💡 #InnovationNation #TechForward",
+    createdAt: "2 months",
+    data: {
+      likes: 220,
+      reposts: 85,
+      comments: 55,
     },
   },
 ];
